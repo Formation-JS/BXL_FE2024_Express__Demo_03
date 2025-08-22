@@ -30,7 +30,7 @@ const personnageController = {
 
         const data = {
             ...req.body,
-            id: id
+            id: id + 1
         };
         personnage.push(data);
 
