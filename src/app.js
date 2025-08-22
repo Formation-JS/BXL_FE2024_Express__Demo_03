@@ -6,7 +6,11 @@ import morgan from "morgan";
 const app = express();
 const { PORT, NODE_ENV } = process.env;
 
-//TODO Middlewares
+// Middlewares
+//? Logger
+app.use(morgan('tiny'));
+//? Fichier du dossier "public"
+app.use('/public', express.static('public'))
 
 // Routing
 app.use('/api', apiRouter);
