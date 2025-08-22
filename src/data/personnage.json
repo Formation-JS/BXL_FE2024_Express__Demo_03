@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Balthazar Picsou",
+    "firstAppearance": "1947-12-01",
+    "univers": "La Bande à Picsou"
+  },
+  {
+    "id": 2,
+    "name": "Mickey Mouse",
+    "firstAppearance": "1928-11-18",
+    "univers": "Mickey et ses amis"
+  },
+  {
+    "id": 3,
+    "name": "Minnie Mouse",
+    "firstAppearance": "1928-11-18",
+    "univers": "Mickey et ses amis"
+  },
+  {
+    "id": 4,
+    "name": "Simba",
+    "firstAppearance": "1994-06-15",
+    "univers": "Le Roi Lion"
+  },
+  {
+    "id": 5,
+    "name": "Ariel",
+    "firstAppearance": "1989-11-17",
+    "univers": "La Petite Sirène"
+  },
+  {
+    "id": 6,
+    "name": "Elsa",
+    "firstAppearance": "2013-11-27",
+    "univers": "La Reine des Neiges"
+  },
+  {
+    "id": 7,
+    "name": "Donald Duck",
+    "firstAppearance": "1934-06-09",
+    "univers": "La Bande à Picsou"
+  },
+  {
+    "id": 8,
+    "name": "Mulan",
+    "firstAppearance": "1998-06-05",
+    "univers": "Mulan"
+  },
+  {
+    "id": 9,
+    "name": "Buzz l'Éclair",
+    "firstAppearance": "1995-11-22",
+    "univers": "Toy Story"
+  },
+  {
+    "id": 10,
+    "name": "Woody",
+    "firstAppearance": "1995-11-22",
+    "univers": "Toy Story"
+  }
+]

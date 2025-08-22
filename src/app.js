@@ -11,6 +11,8 @@ const { PORT, NODE_ENV } = process.env;
 app.use(morgan('tiny'));
 //? Fichier du dossier "public"
 app.use('/public', express.static('public'))
+//? Récuperation des données JSON (POST, PUT, PATCH) -> req.body
+app.use(express.json());
 
 // Routing
 app.use('/api', apiRouter);

@@ -33,3 +33,43 @@ npm i nodemon --save-dev
 .gitignore
 readme.md
 ```
+
+## API RestFull
+
+### Interaction avec des ressources 
+- **GET** : Récuperation
+- **POST** : Création
+- **PUT** : Modification complete
+- **PATCH** : Modification partiel
+- **DELETE** : Suppression
+- **HEAD** : Vérification de l'existance
+
+### Achitecture REST
+- **Client & Serveur**
+- **Stateless** : Ne concerve pas l'état du client.
+- **Cacheable** : Mise en cache possible des réponse.
+- **Interface** uniforme : Endpoint standardisé avec les verbes.
+- **Systeme en couche**
+
+### Bréve liste des codes de réponse
+**Succes**
+- 200 : OK
+- 201 : Created
+- 204 : OK (No data)
+
+**Erreur requête**
+- 400 : Bad request
+- 404 : Not found
+
+**Erreur serveur**
+- 500 : Internal error
+- 501 : Not implemented
+
+## Les endpoints pour la démo
+Web API sur le theme des personnes de Disney
+```
+(GET)    /api/personnage
+(GET)    /api/personnage/:id
+(POST)   /api/personnage
+(DELETE) /api/personnage/:id
+```
