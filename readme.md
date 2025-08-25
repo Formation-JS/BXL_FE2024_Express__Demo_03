@@ -48,7 +48,7 @@ readme.md
 - **Client & Serveur**
 - **Stateless** : Ne concerve pas l'état du client.
 - **Cacheable** : Mise en cache possible des réponse.
-- **Interface** uniforme : Endpoint standardisé avec les verbes.
+- **Interface uniforme** : Endpoint standardisé avec les verbes.
 - **Systeme en couche**
 
 ### Bréve liste des codes de réponse
@@ -73,3 +73,13 @@ Web API sur le theme des personnes de Disney
 (POST)   /api/personnage
 (DELETE) /api/personnage/:id
 ```
+
+## Logiciel pour tester le serveur API
+- **Thunder Client _(Extension pour VSCode)_** https://www.thunderclient.com/  
+  Intégré à VSC, mais certaines options sont payantes
+- **Postman** https://www.postman.com/downloads/  
+  Application à installer et version Web.
+- **Insomnia** https://insomnia.rest/  
+  Application à installer. Necessite un compte pour avoir plusieurs "collection" de requêtes.
+- **Bruno** https://www.usebruno.com/  
+  Application à installer et extension VSCode. Fichier au format `.bru` ajoutable au projet.
